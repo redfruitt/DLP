@@ -135,9 +135,7 @@
             </div> -->
             <br/>
             <div class="send-button">
-              <n-button type="info submit" round block
-                >Save</n-button
-              >
+              <button type="submit">Save</button>
             </div>
           </div>
         </div>

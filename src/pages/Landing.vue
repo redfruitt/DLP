@@ -106,7 +106,7 @@
       <div class="container">
         <h2 class="title">Interested?</h2>
         <p class="description">Apply to beta program below.</p>
-        <form name="subscription" method="POST" data-netlify="true">
+        <form name="subscription" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <div class="row">
           <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
             <fg-input
@@ -123,16 +123,6 @@
               addon-left-icon="now-ui-icons ui-1_email-85"
             >
             </fg-input>
-            <!-- <div class="textarea-container">
-              <textarea
-                class="form-control"
-                name="name"
-                rows="4"
-                cols="80"
-                v-model="form.message"
-                placeholder="Type a message..."
-              ></textarea>
-            </div> -->
             <br/>
             <div class="send-button">
               <button type="submit">Save</button>
